@@ -1,0 +1,99 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Kavivanar', cursive;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 2rem;
+	color: #000000;
+	margin-top: 0px;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	border-bottom: 2px solid#000000;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	padding: 2px 10px;
+}
+
+nav li {
+	border: 2px solid black;
+	border-radius: 20%;
+	f
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: rgb(0, 0, 0);
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+li {
+	display: inline-block;
+	margin: 1rem;
+}
+
+.posted {
+	font-size: 0.8rem;
+	color: #90a611;
+}
+
+footer {
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.float-img {
+	float: left;
+	margin: 0 5px 100px 0;
+	border-radius: 20px;
+	width: 40%;
+	clear: none;
+}
+
+article:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer-design {
+	border-top-style: double;
+	border-top-color: #000000;
+}
